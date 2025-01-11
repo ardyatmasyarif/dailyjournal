@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class="container">
-        <h2 class="text-center">Login to Your Account</h2>
+        <h2 class="text-center">Welcome To My Daily Journal</h2>
         <?php
         if (isset($_SESSION['error'])) {
             echo '<div class="alert alert-danger">'. htmlspecialchars($_SESSION['error']) . '</div>';
